@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue';
 
 <template>
   <nav class="navbar fixed top-0 right-0 left-0 h-16 bg-white">
-    <div class="navbar-wrapper desktop-lg:max-w-1126px desktop-md:max-w-950px desktop-sm:max-w-900px mobile:max-w-715px mobile:px-0 max-w-475px px-5 8 h-full mx-auto flex justify-between items-center">
+    <div class="wrapper h-full flex justify-between items-center">
       <img class="desktop-sm:h-10 h-8" src="../../assets/logo.png" alt="Logo Cinta Quran Foundation">
       <ul class="menu desktop-sm:flex hidden gap-6 items-center">
         <li>Program</li>

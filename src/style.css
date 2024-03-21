@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .wrapper {
+    @apply mx-auto desktop-lg:max-w-1126px desktop-md:max-w-950px desktop-sm:max-w-900px mobile:max-w-715px mobile:px-0 max-w-475px px-5;
+  }
+}
+
 :root {
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
