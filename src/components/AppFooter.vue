@@ -1,10 +1,11 @@
 <script setup>
 import { Icon } from '@iconify/vue';
+import BottomNavbar from './navbars/BottomNavbar.vue';
 </script>
 
 <template>
   <footer class="mt-20">
-    <div class="wrapper flex h-[453px] py-20 w-full justify-between">
+    <div class="wrapper desktop-sm:flex hidden h-[453px] py-20 w-full justify-between">
       <div class="container">
         <img class="h-12" src="../assets/logo.png" alt="Logo Cinta Quran Foundation">
         <p class="mt-6">
@@ -76,5 +77,6 @@ import { Icon } from '@iconify/vue';
         </ul>
       </div>
     </div>
+    <BottomNavbar />
   </footer>
 </template>
