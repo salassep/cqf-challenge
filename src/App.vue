@@ -1,12 +1,13 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
+import Hero from './components/Hero.vue';
 </script>
 
 <template>
   <div>
     <AppHeader />
-    <span class="font-medium text-sm">test</span>
+    <Hero />
     <AppFooter />
   </div>
 </template>

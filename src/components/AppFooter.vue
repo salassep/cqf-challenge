@@ -12,7 +12,7 @@ import BottomNavbar from './navbars/BottomNavbar.vue';
           Cinta Quran Foundation adalah lembaga independen yang mendakwahkan Alquran sebagai solusi 
           dan inspirasi untuk negeri.
         </p>
-        <button class="mt-8 bg-app-blue rounded-btn text-white font-semibold text-sm">
+        <button class="btn-blue mt-8 text-sm">
           <div class="flex pl-[15px] pr-[43px] py-2.5 gap-2">
             <Icon class="text-xl" icon="bi:arrow-right-circle-fill" />
             <span>Lihat Laporan CQ Foundation</span>

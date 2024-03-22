@@ -6,6 +6,10 @@
   .wrapper {
     @apply mx-auto desktop-lg:max-w-1126px desktop-md:max-w-950px desktop-sm:max-w-900px mobile:max-w-715px mobile:px-0 max-w-475px px-5;
   }
+
+  .btn-blue {
+    @apply bg-app-blue rounded-btn text-white font-semibold;
+  }
 }
 
 :root {
@@ -23,8 +27,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#app {
 
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#app {
+  
 }
 
 @media (prefers-color-scheme: light) {
