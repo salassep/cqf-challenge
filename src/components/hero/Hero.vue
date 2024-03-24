@@ -11,15 +11,42 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const modules = [Pagination, Autoplay];
 </script>
 
-<style scoped>
-.hero-pagination-horizontal {
-  /* top: 0;
-  z-index: 9999;
-  left: 50%;
+<style>
+.hero-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0;
+  top: 50%;
+  position: absolute;
+  z-index: 99999;
+  right: 3%;
   transform: translateX(-50%);
-  white-space-collapse: collapse;
-  text-wrap: nowrap; */
-  background-color: red;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero-pagination-bullet {
+  width: 4px;
+  height: 16px;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: var(--swiper-pagination-bullet-inactive-color, #000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+  border-radius: 100px;
+}
+
+.hero-pagination-bullets-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #389ED9;
+  transform: scale(1);
+  height: 32px;
+}
+
+@media screen and (max-width: 955px) {
+  .hero-pagination-bullets-dynamic {
+    display: none;
+  }
 }
 </style>
 
@@ -30,11 +57,14 @@ const modules = [Pagination, Autoplay];
       :spaceBetween="30"
       :centeredSlides="true"
       :autoplay="{
-        delay: 2500,
+        delay: 5000
       }"
       :pagination="{
         dynamicBullets: true,
         clickable: true,
+        modifierClass: 'hero-pagination-',
+        bulletActiveClass: 'hero-pagination-bullets-active',
+        bulletClass: 'hero-pagination-bullet'
       }"
       :modules="modules"
       class="mySwiper"
