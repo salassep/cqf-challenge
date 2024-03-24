@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <nav class="desktop-sm:hidden block fixed bottom-0 right-0 left-0 h-16 bg-white">
+  <nav class="desktop-sm:hidden block fixed bottom-0 right-0 left-0 h-16 bg-white z-50">
     <div class="wrapper h-full flex flex-col justify-center">
       <ul class="menu flex justify-around text-[#636363]">
         <li>

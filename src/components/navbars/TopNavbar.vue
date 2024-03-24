@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <nav class="navbar fixed top-0 right-0 left-0 h-16 bg-white z-50">
+  <nav class="navbar fixed top-0 w-screen h-16 bg-white z-50">
     <div class="wrapper h-full flex justify-between items-center">
       <img class="desktop-sm:h-10 h-8" src="../../assets/logo.png" alt="Logo Cinta Quran Foundation">
       <ul class="menu desktop-sm:flex hidden gap-6 items-center">

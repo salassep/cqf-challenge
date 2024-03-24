@@ -26,7 +26,11 @@ export default {
         'desktop-lg': '1200px',
         'desktop-md': '1024px',
         'desktop-sm': '955px',
-        'mobile': '768px'
+        'mobile-lg': '768px',
+        'mobile-sm': '480px'
+      },
+      backgroundImage: {
+        'hero-pattern': "url('./assets/backgrounds/hero-pattern.svg')"
       }
     },
   },

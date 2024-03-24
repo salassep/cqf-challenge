@@ -4,11 +4,11 @@
 
 @layer components {
   .wrapper {
-    @apply mx-auto desktop-lg:max-w-1126px desktop-md:max-w-950px desktop-sm:max-w-900px mobile:max-w-715px mobile:px-0 max-w-475px px-5;
+    @apply mx-auto desktop-lg:max-w-1126px desktop-md:max-w-950px desktop-sm:max-w-900px mobile-lg:max-w-715px mobile-lg:px-0 max-w-475px px-5;
   }
 
   .btn-blue {
-    @apply bg-app-blue rounded-btn text-white font-semibold;
+    @apply bg-app-blue rounded-btn text-white font-semibold tracking-[0.5px];
   }
 }
 
@@ -30,7 +30,7 @@
 
 body {
   width: 100vw;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 #app {
