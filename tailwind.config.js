@@ -10,7 +10,8 @@ export default {
         '120px': '120px',
       },
       colors: {
-        'app-blue': '#389ED9'
+        'app-blue': '#389ED9',
+        'app-secondary-text': '#636363'
       },
       borderRadius: {
         'btn': '100px'
@@ -30,7 +31,11 @@ export default {
         'mobile-sm': '480px'
       },
       backgroundImage: {
-        'hero-pattern': "url('./assets/backgrounds/hero-pattern.svg')"
+        'hero-pattern': "url('./assets/backgrounds/hero-pattern.svg')",
+        'dono-pattern': "url('./assets/backgrounds/dono-pattern.svg')",
+      },
+      boxShadow: {
+        'card': '0px 6px 20px 0px rgba(33, 42, 48, 0.15)'
       }
     },
   },
