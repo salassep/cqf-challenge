@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero.vue';
 import Donation from './components/Donation.vue';
 import Program from './components/Program.vue';
 import Kajian from './components/Kajian.vue';
+import Partner from './components/Partner.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Kajian from './components/Kajian.vue';
     <Donation />
     <Program />
     <Kajian />
+    <Partner />
     <AppFooter />
   </div>
 </template>
