@@ -37,7 +37,7 @@ body {
   
 }
 
-.main-program-card-gradient, .program-card-gradient {
+.main-program-card-gradient, .main-kajian-card-gradient, .program-card-gradient, .kajian-card-gradient {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -48,6 +48,16 @@ body {
 
 .program-card-gradient {
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) 20.11%, rgba(0, 0, 0, 0) 84.17%);
+}
+
+.main-kajian-card-gradient {
+  background: linear-gradient(0deg, #323232 12.64%, rgba(255, 255, 255, 0) 100%);
+  background-blend-mode: multiply;
+}
+
+.kajian-card-gradient {
+  background: linear-gradient(0deg, #323232 12.64%, rgba(255, 255, 255, 0) 100%);
+  background-blend-mode: multiply;
 }
 
 @media (prefers-color-scheme: light) {

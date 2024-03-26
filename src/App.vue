@@ -4,6 +4,7 @@ import AppFooter from './components/AppFooter.vue';
 import Hero from './components/hero/Hero.vue';
 import Donation from './components/Donation.vue';
 import Program from './components/Program.vue';
+import Kajian from './components/Kajian.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Program from './components/Program.vue';
     <Hero />
     <Donation />
     <Program />
+    <Kajian />
     <AppFooter />
   </div>
 </template>
