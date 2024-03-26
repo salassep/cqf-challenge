@@ -76,7 +76,7 @@ import 'swiper/css';
         </swiper>
         </ul>
       </div>
-      <div class="mt-8 grid grid-cols-6 grid-flow-row text-white gap-6">
+      <div class="mt-8 grid desktop-sm:grid-cols-6 grid-cols-3 grid-flow-row text-white gap-6">
         <div class="row-span-3 col-span-3 relative">
           <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/kajians/kajian-1.png" alt="Kajian Cinta Quran">
           <div class="main-kajian-card-gradient rounded-3xl p-8 flex flex-col justify-between">
