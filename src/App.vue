@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import Hero from './components/hero/Hero.vue';
 import Donation from './components/Donation.vue';
+import Program from './components/Program.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Donation from './components/Donation.vue';
     <AppHeader />
     <Hero />
     <Donation />
+    <Program />
     <AppFooter />
   </div>
 </template>
