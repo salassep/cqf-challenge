@@ -26,14 +26,14 @@ import { Icon } from '@iconify/vue';
           <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-1.png" alt="Program Cinta Quran">
           <div class="main-program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">Indonesia Bisa Baca Quran</h3>
-            <p class="text-lg mobile-sm:block hidden">Sebuah Fakta mengejutkan menyatakan bahwa 53,57% (BPS 2018). kaum muslimin di Indonesia tidak bisa membaca Al-Quran.</p>
+            <p class="text-lg mobile-lg:block hidden">Sebuah Fakta mengejutkan menyatakan bahwa 53,57% (BPS 2018). kaum muslimin di Indonesia tidak bisa membaca Al-Quran.</p>
           </div>
         </div>
         <div class="desktop-sm:row-span-2 desktop-sm:h-full h-[200px] relative">
           <img class="grayscale rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-2.png" alt="Program Cinta Quran">
           <div class="program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">CintaQuran Call</h3>
-            <p class="text-lg mobile-sm:block hidden">Cinta Quran Call merupakan layanan pendampingan.</p>
+            <p class="text-lg mobile-lg:block hidden">Cinta Quran Call merupakan layanan pendampingan.</p>
           </div>
         </div>
         <div class="relative max-h-[200px]">
