@@ -3,8 +3,9 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <section class="program py-20">
-    <div class="wrapper">
+  <section class="program relative">
+    <div class="bg-program-pattern bg-no-repeat bg-cover -z-10 bg-center h-full w-full absolute"></div>
+    <div class="wrapper py-20">
       <div class="section-header">
         <div class="flex justify-between">
           <div class="section-title">

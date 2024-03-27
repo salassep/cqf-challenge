@@ -33,6 +33,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./assets/backgrounds/hero-pattern.svg')",
         'dono-pattern': "url('./assets/backgrounds/dono-pattern.svg')",
+        'program-pattern': "url('./assets/backgrounds/program-pattern.png')",
       },
       boxShadow: {
         'card': '0px 6px 20px 0px rgba(33, 42, 48, 0.15)'
