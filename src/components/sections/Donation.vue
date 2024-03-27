@@ -9,7 +9,7 @@ const modules = [Pagination];
 const categories = [
   {
     icon: 'ri:apps-2-line',
-    name: 'Semua Kategor',
+    name: 'Semua Kategori',
   },
   {
     icon: 'fluent-emoji-high-contrast:people-hugging',
