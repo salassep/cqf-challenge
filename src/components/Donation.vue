@@ -39,6 +39,12 @@ const modules = [Pagination];
   transform: scale(1);
   width: 32px;
 }
+
+@media only screen and (max-width: 768px) {
+  .donate-pagination-bullets-dynamic {
+    left: 40%;
+  }
+}
 </style>
 
 <template>

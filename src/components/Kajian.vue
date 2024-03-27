@@ -76,8 +76,8 @@ import 'swiper/css';
         </swiper>
         </ul>
       </div>
-      <div class="mt-8 grid desktop-sm:grid-cols-6 grid-cols-3 grid-flow-row text-white gap-6">
-        <div class="row-span-3 col-span-3 relative">
+      <div class="mt-8 grid desktop-sm:grid-cols-6 mobile-sm:grid-cols-3 grid-cols-2 grid-flow-row text-white gap-6">
+        <div class="row-span-3 mobile-sm:col-span-3 col-span-2 relative">
           <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/kajians/kajian-1.png" alt="Kajian Cinta Quran">
           <div class="main-kajian-card-gradient rounded-3xl p-8 flex flex-col justify-between">
             <button class="bg-[#FF3C5A] py-3 px-6 rounded-btn w-fit">
@@ -88,11 +88,11 @@ import 'swiper/css';
             </button>
             <div class="flex flex-col gap-4">
               <div>
-                <span class="text-lg font-medium">Cinta Quran Creative Studio</span>
+                <span class="mobile-sm:text-lg text-base font-medium">Cinta Quran Creative Studio</span>
                 <h3 class="font-semibold mobile-sm:text-[32px] text-2xl">Menyempurnakan Taqwa</h3>
               </div>
-              <div class="text-xl font-semibold">
-                <span class="text-[#AFCD21] block mb-3">Kamis, 30 September 2021</span>
+              <div class="mobile-sm:text-xl text-base font-semibold">
+                <span class="text-[#AFCD21] block mobile-sm:mb-3">Kamis, 30 September 2021</span>
                 <span>09:00 - 10:00</span>
               </div>
             </div>
