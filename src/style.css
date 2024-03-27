@@ -10,6 +10,18 @@
   .btn-blue {
     @apply bg-app-blue rounded-btn text-white font-semibold tracking-[0.5px];
   }
+
+  .nav-hover {
+    @apply hover:text-app-blue transition duration-200 cursor-pointer;
+  }
+
+  .btn-white-hover {
+    @apply transition duration-200 hover:bg-app-blue hover:bg-opacity-5;
+  }
+
+  .category-hover {
+    @apply cursor-pointer transition duration-200 hover:bg-app-blue hover:bg-opacity-5 hover:border-app-blue hover:text-app-blue;
+  }
 }
 
 :root {

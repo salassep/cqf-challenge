@@ -131,7 +131,7 @@ const donationPrograms = [
           data-aos="fade-up"
         >
           <swiper-slide v-for="category in categories">
-            <li class="flex gap-2 justify-center py-3 px-4 w-52 border rounded-btn">
+            <li class="flex gap-2 justify-center py-3 px-4 w-52 border rounded-btn category-hover">
               <Icon :icon="category.icon" height="24"/>
               <span>{{ category.name }}</span>
             </li>

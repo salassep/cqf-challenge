@@ -66,7 +66,7 @@ const categories = [
           data-aos="fade-up"
         >
           <swiper-slide v-for="category in categories">
-            <li class="flex gap-1 justify-center py-3 px-4 w-[168px] border rounded-btn">
+            <li class="flex gap-1 justify-center py-3 px-4 w-[168px] border rounded-btn category-hover">
               <Icon :icon="category.icon" height="24"/>
               <span>{{ category.name }}</span>
             </li>
