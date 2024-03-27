@@ -4,7 +4,8 @@ import { Icon } from '@iconify/vue';
 
 <template>
   <section class="program relative">
-    <div class="bg-program-pattern bg-no-repeat bg-cover -z-10 bg-center h-full w-full absolute"></div>
+    <!-- <div class="bg-program-pattern bg-no-repeat bg-cover -z-10 bg-center h-full w-full absolute"></div> -->
+    <img src="../assets/backgrounds/program-pattern.svg" class="absolute -z-10 w-full object-fill" alt="">
     <div class="wrapper py-20">
       <div class="section-header">
         <div class="flex justify-between">

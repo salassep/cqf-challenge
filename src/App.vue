@@ -7,6 +7,11 @@ import Program from './components/Program.vue';
 import Kajian from './components/Kajian.vue';
 import Partner from './components/Partner.vue';
 import Cta from './components/Cta.vue';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    AOS.init();
+})
 </script>
 
 <template>

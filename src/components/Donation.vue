@@ -53,8 +53,8 @@ const modules = [Pagination];
       <div class="section-header">
         <div class="flex justify-between">
           <div class="section-title">
-            <h2 class="font-semibold desktop-sm:text-5xl text-3xl">Donasi Pilihan</h2>
-            <p class="mt-4 text-app-secondary-text">Pilih dan salurkan donasi melalui program-program kami yang berarti bagi sahabat Cinta Quran.</p>
+            <h2 class="font-semibold desktop-sm:text-5xl text-3xl" data-aos="fade-up">Donasi Pilihan</h2>
+            <p class="mt-4 text-app-secondary-text" data-aos="fade-up">Pilih dan salurkan donasi melalui program-program kami yang berarti bagi sahabat Cinta Quran.</p>
           </div>
           <div class="desktop-sm:flex hidden gap-6 items-center text-app-blue">
             <button class="p-3 bg-transparent border border-app-blue rounded-full">
@@ -89,6 +89,7 @@ const modules = [Pagination];
             }
           }"
           class="category-swiper"
+          data-aos="fade-up"
         >
           <swiper-slide>
             <li class="flex gap-2 justify-center py-3 px-4 w-52 border rounded-btn">
@@ -146,6 +147,7 @@ const modules = [Pagination];
           }"
           :modules="modules"
           class="donation-swiper"
+          data-aos="fade-up"
         >
           <swiper-slide>
             <div class="card desktop-lg:w-[360px] 300px shadow-card rounded-b-lg">
@@ -242,7 +244,7 @@ const modules = [Pagination];
           <div class=" h-14"></div>
         </swiper>
       </div>
-      <ul class="flex desktop-md:flex-row desktop-md:justify-around desktop-md:gap-0 gap-8 flex-col mt-[92px]">
+      <ul class="flex desktop-md:flex-row desktop-md:justify-around desktop-md:gap-0 gap-8 flex-col mt-[92px]" data-aos="fade-up">
         <li class="flex desktop-md:gap-4 gap-6">
           <div class="bg-dono-pattern bg-cover w-20 h-20 flex justify-center items-center">
             <Icon class=" text-[#B1CF1F]" icon="bi:cash" width="35px" />
