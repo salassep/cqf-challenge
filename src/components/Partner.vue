@@ -9,7 +9,7 @@ const modules = [Autoplay];
 
 <template>
   <section class="partner py-20">
-    <h2 class="section-title font-semibold desktop-sm:text-5xl text-3xl text-center">Amazing Group</h2>
+    <h2 class="section-title font-semibold desktop-sm:text-5xl text-3xl text-center" data-aos="fade-up">Amazing Group</h2>
     <div class="content mt-8">
       <ul>
         <swiper
@@ -41,6 +41,7 @@ const modules = [Autoplay];
           }"
           :modules="modules"
           class="partner-swiper"
+          data-aos="fade-up"
         >
           <swiper-slide>
             <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
@@ -103,6 +104,7 @@ const modules = [Autoplay];
           }"
           :modules="modules"
           class="partner-swiper"
+          data-aos="fade-up"
         >
           <swiper-slide>
             <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">

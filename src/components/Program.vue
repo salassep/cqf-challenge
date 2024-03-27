@@ -10,8 +10,8 @@ import { Icon } from '@iconify/vue';
       <div class="section-header">
         <div class="flex justify-between">
           <div class="section-title">
-            <h2 class="font-semibold desktop-sm:text-5xl text-3xl">Program Pilihan</h2>
-            <p class="mt-4 text-app-secondary-text">Program-program terbaik dari Cinta Quran Foundation untuk Sahabat Cinta Quran.</p>
+            <h2 class="font-semibold desktop-sm:text-5xl text-3xl" data-aos="fade-up">Program Pilihan</h2>
+            <p class="mt-4 text-app-secondary-text" data-aos="fade-up">Program-program terbaik dari Cinta Quran Foundation untuk Sahabat Cinta Quran.</p>
           </div>
           <div class="desktop-sm:flex hidden gap-6 items-center text-app-blue">
             <button class="p-3 bg-transparent border border-app-blue rounded-full">
@@ -23,7 +23,7 @@ import { Icon } from '@iconify/vue';
           </div>
         </div>
       </div>
-      <div class="content mt-8 grid desktop-sm:grid-cols-3 grid-cols-1 grid-flow-row desktop-sm:auto-rows-fr gap-6 text-white">
+      <div class="content mt-8 grid desktop-sm:grid-cols-3 grid-cols-1 grid-flow-row desktop-sm:auto-rows-fr gap-6 text-white" data-aos="fade-up">
         <div class= "desktop-sm:col-span-2 row-span-2 relative">
           <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-1.png" alt="Program Cinta Quran">
           <div class="main-program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">

@@ -9,8 +9,8 @@ import 'swiper/css';
     <div class="wrapper">
       <div class="section-header">
         <div class="section-title">
-          <h2 class="font-semibold desktop-sm:text-5xl text-3xl text-center">Kajian Inspiratif</h2>
-          <p class="mt-4 text-app-secondary-text text-center">Program kajian inspiratif dari kami untuk menemani aktivitas Sahabat Cinta Qur’an.</p>
+          <h2 class="font-semibold desktop-sm:text-5xl text-3xl text-center" data-aos="fade-up">Kajian Inspiratif</h2>
+          <p class="mt-4 text-app-secondary-text text-center" data-aos="fade-up">Program kajian inspiratif dari kami untuk menemani aktivitas Sahabat Cinta Qur’an.</p>
         </div>
         <ul class="categories mt-8 text-app-secondary-text">
         <swiper
@@ -36,6 +36,7 @@ import 'swiper/css';
             }
           }"
           class="category-swiper"
+          data-aos="fade-up"
         >
           <swiper-slide>
             <li class="flex gap-1 justify-center py-3 px-4 w-[168px] border rounded-btn">
@@ -76,7 +77,7 @@ import 'swiper/css';
         </swiper>
         </ul>
       </div>
-      <div class="mt-8 grid desktop-sm:grid-cols-6 mobile-sm:grid-cols-3 grid-cols-2 grid-flow-row text-white gap-6">
+      <div class="mt-8 grid desktop-sm:grid-cols-6 mobile-sm:grid-cols-3 grid-cols-2 grid-flow-row text-white gap-6" data-aos="fade-up">
         <div class="row-span-3 mobile-sm:col-span-3 col-span-2 relative">
           <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/kajians/kajian-1.png" alt="Kajian Cinta Quran">
           <div class="main-kajian-card-gradient rounded-3xl p-8 flex flex-col justify-between">
