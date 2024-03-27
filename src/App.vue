@@ -1,13 +1,8 @@
 <script setup>
-import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';
-import Hero from './components/hero/Hero.vue';
-import Donation from './components/Donation.vue';
-import Program from './components/Program.vue';
-import Kajian from './components/Kajian.vue';
-import Partner from './components/Partner.vue';
-import Cta from './components/Cta.vue';
 import { onMounted } from 'vue';
+import Header from './components/layouts/Header.vue';
+import Footer from './components/layouts/Footer.vue';
+import Home from './pages/Home.vue';
 
 onMounted(() => {
     AOS.init();
@@ -16,16 +11,8 @@ onMounted(() => {
 
 <template>
   <div class="relative">
-    <AppHeader />
-    <Hero />
-    <Donation />
-    <Program />
-    <Kajian />
-    <Partner />
-    <Cta />
-    <AppFooter />
+    <Header />
+    <Home />
+    <Footer />
   </div>
 </template>
-
-<style scoped>
-</style>

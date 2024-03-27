@@ -47,32 +47,17 @@ const modules = [Autoplay];
           >
             <swiper-slide>
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-1.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-1.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
             <swiper-slide>
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-2.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-2.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
-            <swiper-slide>
+            <swiper-slide v-for="n in 4">
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
           </swiper>
@@ -110,32 +95,17 @@ const modules = [Autoplay];
           >
             <swiper-slide>
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-1.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-1.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
             <swiper-slide>
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-2.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-2.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
-            <swiper-slide>
+            <swiper-slide v-for="n in 4">
               <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
-              </li>
-            </swiper-slide>
-            <swiper-slide>
-              <li class="flex items-center mx-auto w-[264px] h-[140px] bg-white p-7 rounded-3xl">
-                <img class="grayscale" src="../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
+                <img class="grayscale" src="../../assets/images/partners/partner-3.png" alt="Logo Partner Cinta Quran">
               </li>
             </swiper-slide>
           </swiper>

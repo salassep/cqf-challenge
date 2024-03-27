@@ -1,6 +1,6 @@
 <script setup>
 import { Icon } from '@iconify/vue';
-import BottomNavbar from './navbars/BottomNavbar.vue';
+import BottomNavbar from '../navbars/BottomNavbar.vue';
 </script>
 
 <template>

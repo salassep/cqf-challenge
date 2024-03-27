@@ -24,33 +24,33 @@ import { Icon } from '@iconify/vue';
       </div>
       <div class="content mt-8 grid desktop-sm:grid-cols-3 grid-cols-1 grid-flow-row desktop-sm:auto-rows-fr gap-6 text-white" data-aos="fade-up">
         <div class= "desktop-sm:col-span-2 row-span-2 relative">
-          <img class="rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-1.png" alt="Program Cinta Quran">
+          <img class="rounded-3xl object-cover h-full w-full" src="../../assets/images/programs/program-1.png" alt="Program Cinta Quran">
           <div class="main-program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">Indonesia Bisa Baca Quran</h3>
             <p class="text-lg mobile-lg:block hidden">Sebuah Fakta mengejutkan menyatakan bahwa 53,57% (BPS 2018). kaum muslimin di Indonesia tidak bisa membaca Al-Quran.</p>
           </div>
         </div>
         <div class="desktop-sm:row-span-2 desktop-sm:h-full h-[200px] relative">
-          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-2.png" alt="Program Cinta Quran">
+          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../../assets/images/programs/program-2.png" alt="Program Cinta Quran">
           <div class="program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">CintaQuran Call</h3>
             <p class="text-lg mobile-lg:block hidden">Cinta Quran Call merupakan layanan pendampingan.</p>
           </div>
         </div>
         <div class="relative max-h-[200px]">
-          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-3.png" alt="Program Cinta Quran">
+          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../../assets/images/programs/program-3.png" alt="Program Cinta Quran">
           <div class="program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">Kajian Perkantoran</h3>
           </div>
         </div>
         <div class="relative max-h-[200px]">
-          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-4.png" alt="Program Cinta Quran">
+          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../../assets/images/programs/program-4.png" alt="Program Cinta Quran">
           <div class="program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">Majelis Cinta Quran</h3>
           </div>
         </div>
         <div class="relative max-h-[200px]">
-          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../assets/images/programs/program-5.png" alt="Program Cinta Quran">
+          <img class="grayscale rounded-3xl object-cover h-full w-full" src="../../assets/images/programs/program-5.png" alt="Program Cinta Quran">
           <div class="program-card-gradient rounded-3xl p-8 flex flex-col justify-end gap-4">
             <h3 class="font-semibold text-[32px]">Cinta Quran TV</h3>
           </div>
