@@ -52,7 +52,7 @@ const modules = [Pagination, Autoplay];
 
 <template>
   <section class="hero mt-16 desktop-sm:py-[120px] mobile-lg:py-16 py-8 flex items-center relative overflow-hidden">
-    <!-- <div class="bg-hero-pattern bg-no-repeat bg-[length:120%] bg-[-100px_70%] h-[800px] w-screen absolute"></div> -->
+    <div class="bg-hero-pattern bg-no-repeat bg-cover bg-[0px_82%] h-full w-full absolute"></div>
     <swiper
       :spaceBetween="30"
       :centeredSlides="true"
