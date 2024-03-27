@@ -1,5 +1,5 @@
-# CQF Challenges
-CQF challenges repository.
+# CQF Challenge
+CQF challenge repository.
 
 ## Tech Stack
 - Vue
