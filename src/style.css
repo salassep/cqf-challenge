@@ -22,6 +22,14 @@
   .category-hover {
     @apply cursor-pointer transition duration-200 hover:bg-app-blue hover:bg-opacity-5 hover:border-app-blue hover:text-app-blue;
   }
+
+  .active-category {
+    @apply border-app-blue text-app-blue bg-app-blue bg-opacity-5;
+  }
+
+  .active-menu {
+    @apply text-app-blue;
+  }
 }
 
 :root {

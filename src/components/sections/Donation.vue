@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { ref } from 'vue';
 
 const modules = [Pagination];
 const categories = [
@@ -45,6 +46,10 @@ const donationPrograms = [
     description: 'Isi penuh Amazing Box selama 1 bulan, kembalikan kepada kami.',
   },
 ];
+const activeCategoryIndex = ref(0);
+const changeActiveCategory = val => {
+  activeCategoryIndex.value = val;
+}
 </script>
 
 <style>
@@ -130,8 +135,12 @@ const donationPrograms = [
           class="category-swiper"
           data-aos="fade-up"
         >
-          <swiper-slide v-for="category in categories">
-            <li class="flex gap-2 justify-center py-3 px-4 w-52 border rounded-btn category-hover">
+          <swiper-slide v-for="(category, index) in categories">
+            <li 
+              class="flex gap-2 justify-center py-3 px-4 w-52 border rounded-btn category-hover" 
+              :class="{'active-category': index === activeCategoryIndex}"
+              @click="changeActiveCategory(index)"
+            >
               <Icon :icon="category.icon" height="24"/>
               <span>{{ category.name }}</span>
             </li>

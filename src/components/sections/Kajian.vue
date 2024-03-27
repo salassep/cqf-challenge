@@ -2,6 +2,7 @@
 import { Icon } from '@iconify/vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
+import { ref } from 'vue';
 
 const categories = [
   {
@@ -29,6 +30,10 @@ const categories = [
     name: 'Lainnya'
   },
 ];
+const activeCategoryIndex = ref(0);
+const changeActiveCategory = val => {
+  activeCategoryIndex.value = val;
+}
 </script>
 
 <template>
@@ -65,8 +70,12 @@ const categories = [
           class="category-swiper"
           data-aos="fade-up"
         >
-          <swiper-slide v-for="category in categories">
-            <li class="flex gap-1 justify-center py-3 px-4 w-[168px] border rounded-btn category-hover">
+          <swiper-slide v-for="(category, index) in categories">
+            <li 
+              class="flex gap-1 justify-center py-3 px-4 w-[168px] border rounded-btn category-hover"
+              :class="{'active-category': index === activeCategoryIndex}"
+              @click="changeActiveCategory(index)"
+            >
               <Icon :icon="category.icon" height="24"/>
               <span>{{ category.name }}</span>
             </li>
