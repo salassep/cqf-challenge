@@ -83,13 +83,13 @@ import 'swiper/css';
             <button class="bg-[#FF3C5A] py-3 px-6 rounded-btn w-fit">
               <div class="flex gap-2 items-center">
                 <Icon icon="fluent:live-24-regular" height="24"/>
-                <span class="font-semibold text-xl">Sedang Berlangsung</span>
+                <span class="font-semibold mobile-sm:text-xl text-lg mobile-sm:inline hidden">Sedang Berlangsung</span>
               </div>
             </button>
             <div class="flex flex-col gap-4">
               <div>
                 <span class="text-lg font-medium">Cinta Quran Creative Studio</span>
-                <h3 class="font-semibold text-[32px]">Menyempurnakan Taqwa</h3>
+                <h3 class="font-semibold mobile-sm:text-[32px] text-2xl">Menyempurnakan Taqwa</h3>
               </div>
               <div class="text-xl font-semibold">
                 <span class="text-[#AFCD21] block mb-3">Kamis, 30 September 2021</span>
