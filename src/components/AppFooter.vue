@@ -4,7 +4,8 @@ import BottomNavbar from './navbars/BottomNavbar.vue';
 </script>
 
 <template>
-  <footer class="mt-20">
+  <footer class="mt-20 relative">
+    <div class="desktop-sm:block hidden bg-footer-pattern bg-no-repeat bg-contain bg-left-bottom -z-10 h-full w-screen absolute"></div>
     <div class="wrapper desktop-sm:flex hidden h-[453px] py-20 w-full justify-between">
       <div class="container">
         <img class="h-12" src="../assets/logo.png" alt="Logo Cinta Quran Foundation">
